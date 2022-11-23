@@ -1,6 +1,6 @@
 # Hello Jesse.
 
-Jesses this is a README file for source control repostiory. You can see information about the code here if someone takes the time to write one.
+Jesse this is a README file for source control repostiory. You can see information about the code here if someone takes the time to write one.
 
 These files have a special language called **markdown**. Markdown is merely a way to style the words. For example, you'll notice I bolded the word *markdown* I did this by wrapping the word markdown with two asterisks (**). You'll notice the word above is italicized. I did that using only a single asterisk. You can see the syntax simply by opejing this file in a text editor. 
 
