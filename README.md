@@ -56,11 +56,11 @@ Use Markdown files to document what your code does!
 
 Let's make you into a neckbeard. I want us to remain in the commandline. You will notice the use of the `$HOME` variable. This is a variable in linux that references your home directory. This is just like on Windows when you have your `Documents` directory. To enter this directory use the `cd` command. `cd` in linux is change directory. In our case we want to go `$HOME`. But what exactly in `$HOME`?
 
-`$HOME` is merely a reference to a directory. Even more low level, it's just text. So let's see what `$HOME` actually equals. To do this, type the below command
+`$HOME` is a variable and is merely a reference to a directory. Even more low level, it's just text. So let's see what `$HOME` actually equals. To do this, type the below command
 ```
 echo $HOME
 ```
-If this is successful you should see something like `/home/pi` or whatever your username is (not pi). For the rest of this tutorial, we will ASSUME your username is `pi`.
+The `echo` command will print whatever you say after it. If this is successful you should see something like `/home/pi` or whatever your username is. For the rest of this tutorial, we will ASSUME your username is `pi`.
 
 Ok now that we have that out of the way lets use this variable. Let's go to your home directory by using the `cd` command mentioned above. Type the below.
 
@@ -69,7 +69,7 @@ cd $HOME
 ```
 This command IS ALSO THE SAME as if you typed `cd /home/pi`. variables make your life easier!
 
-Let's learn one more quick command. Let's verify you are in your `$HOME` directory. Type `pwd` and hit enter. `pwd` is a command that stands for **P**rint **W**orking **D**irectory. It shows whatever directory you're in. This should equal whatever your `$HOME` variable equals.
+Let's learn one more quick command. Let's verify you are in your `$HOME` directory. Type `pwd` and hit enter. `pwd` is a command that stands for **P**rint **W**orking **D**irectory. It shows whatever directory you're in. This should equal whatever your `$HOME` variable equals. In our case `/home/pi`.
 
 Ok now let's create a directory where we can store our code. Run `mkdir src`.
 This `mkdir` makes a directory called `src`. I like to store all my projects in a folder called `src` (source). 
